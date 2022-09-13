@@ -1,0 +1,570 @@
+*
+
+
+html{
+min-height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+	border: 0;
+}
+
+header{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    display: block;
+}
+
+.menuzinho{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;  
+}
+
+.menuzinho:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 100px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    width: 65%;
+    filter: drop-shadow(0 0 3px #000);
+}
+
+.redes-sociais ul li {
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+    padding: 10px;
+    filter: drop-shadow(0 0 2.5px #000);
+}
+
+.header-2 {
+    
+    
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    
+    z-index: 9;
+}
+
+.menu ul li {
+    
+    z-index: 9;
+    display: inline-block;
+    color: #831adc;
+    margin-left: 10px;
+    height: 25px;
+}
+
+.menu ul li:hover {
+    
+    z-index: 9;
+    border-bottom: 2px solid chocolate;
+}
+
+.menu ul li a:hover {
+    
+    z-index: 9;
+    color: chocolate;
+
+}
+
+.menu ul li a {
+    
+    font-family: 'Rampart One', cursive;
+    z-index: 9;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 3px #000);
+}
+
+.menu {
+    
+    z-index: 9;
+    width: 70%;
+    float: left;
+}
+
+.col-100 {
+    
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+button.slick-prev {
+    height: 51px;
+    width: 25px;
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/arrowL.png');
+    position: absolute;
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    height: 51px;
+    width: 25px;
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/arrowR.png');
+    position: absolute;
+    top: 35%;
+    right: 14%;
+    
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px #000);
+}
+
+.titulo {
+    
+    z-index: 9;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+    padding-left: 1%;
+    object-fit: cover;
+    object-position: bottom;
+    
+   
+}
+
+.barraTitulo {
+    
+    z-index: 9;
+    position: absolute;
+    left: 42%;
+    top: 25%;
+    padding-left: 1%;
+    object-fit: cover;
+    object-position: bottom;
+   
+}
+
+.barraTituloR {
+   
+    z-index: 9;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    padding-left: 1%;
+    object-fit: cover;
+    object-position: bottom;
+
+}
+
+.barraTituloL {
+    
+    z-index: 9;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    padding-left: 1%;
+    object-fit: cover;
+    object-position: bottom;
+    
+
+}
+
+.img-ticket {
+   
+    z-index: 9;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    left: 2px;
+    top: 150px;
+    padding-left: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 70px;
+
+}
+
+.sobreposicao {
+    
+    z-index: 9;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    left: 2px;
+    top: 150px;
+    padding-left: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 70px;
+    opacity: 0.4;
+}
+
+.img2-ticket {
+    
+    z-index: 9;
+    display: inline-block;
+    
+    overflow: hidden;
+    margin: 0 auto;
+   
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 70px;
+
+}
+
+.img3-ticket {
+   
+    position: absolute;
+    left: 25.1%;
+    top: 10px;
+    padding-left: 10px;
+   
+}
+
+.sobreposicao3 {
+    background-image: url("../img/sobreporTicket3.png");
+    z-index: 9;
+    position: absolute;
+    left: 25.1%;
+    top: 10px;
+    bottom: 10px;
+    padding-left: 3.4%;
+    opacity: 0.4;
+    
+}
+
+.img4-ticket {
+    
+    z-index: 9;
+    position: absolute;
+    left: 27.9%;
+    top: 280px;
+    padding-left: 10px;
+
+}
+
+
+.TicketTitulo {
+    
+    z-index: 9;
+    position: absolute;
+    left:40%;
+    top: 305px;
+}
+
+.barraTituloTicket {
+    
+    position: absolute;
+    left: 55%;
+    top: 355px;
+    padding-left: 10px;
+    opacity: 0.9;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    position: absolute;
+    left: 47%;
+    top: 500px;
+
+}
+
+li.slick-active button {
+    background-color: #00bac6;
+
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaqueTicket {
+    text-align: center;
+    color: #646464;
+    top: 500px;
+
+}
+
+.texto-destaqueTicket strong {
+    color: #ffae00;
+}
+
+.texto-destaqueTicket h1, h2, h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.texto-destaqueTicket p {
+    font-size: 15px;
+    color: #9a9a9a;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.texto-destaque {
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.texto-destaque strong {
+    color: #ae00ff;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    
+}
+
+.bloco-imagem {
+    border: 1px solid #c5c5c5;
+}
+
+.bloco-imagem b,
+p {
+    text-align: left;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+
+@media only screen and (max-width: 600px) {
+
+    main,
+    .content {
+        margin: 0 auto;
+        width: 980px;
+        position: relative;
+        display: block;
+    }
+
+
+    .menu-principal {
+        width: 100%;
+        background-color: #e0e0e0;
+        height: 100px;
+    }
+
+
+}
+
+@media (max-width: 700px){
+    .menu, ul{
+        flex-direction: column;
+        align-items: 0;
+
+    }
+
+    ul{
+        width: 100%;
+    }
+    .menu{
+        padding: 20px;
+    }
+.col-100 p{
+        font-family: 'Rampart One', cursive;
+        flex-direction: column;
+    }
+    .slick-dots{
+        flex-direction: column;
+    }
+
+    button.slick-next, button.slick-prev{
+        flex-direction: column;
+    }
+
+    img{
+        flex-direction: column;
+    }
+
+    .responsivo{
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+footer{
+    
+    width: 12%;
+    bottom: 0;
+    position: fixed;
+    left: 45%;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+
+object{
+    z-index: 9;
+    position: absolute;
+    top: 130%;
+    left: 35%;
+   
+
+}
+
+@media all and (max-width: 700px){
+    .titulo, img{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .barraTitulo, img{
+        width: 100%;
+        flex-direction: column;
+    } 
+    .barraTituloR, img{
+        width: 100%;
+        flex-direction: column;
+    } 
+    .barraTituloL, img{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.sobreposicao4{
+    left: 3px;
+    position: absolute;
+    width: 100%;
+    opacity: 0.4;
+    top: 82.95%;
+}
+
+.sobreposicao5{
+    left: 3px;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 99.5%;
+    opacity: 0.4;
+    top: 10.65%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
