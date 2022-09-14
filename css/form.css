@@ -127,3 +127,14 @@ form input[type=tel]:focus{
     transform: rotate(90deg);
     transform-origin: left top 0;
 }
+
+footer{
+   
+    width: 12%;
+    bottom: 0;
+    position: fixed;
+    left: 45%;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}

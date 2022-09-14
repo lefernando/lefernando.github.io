@@ -85,17 +85,17 @@
             </div>
     </main>
 	<form method="post" name="dados">
-		<h3>---Cadastre seus dados---</h3>
-		<input type="text" name="nome" id="nome" placeholder="Seu nome completo" />
-		<input type="text" name="email" id="email" placeholder="Seu email..." />
-		<input type="password" name="senha" id="senha" placeholder="Sua senha..." />
-		<input type="tel" name="telefone" id="telefone" placeholder="Seu telefone..." />
+		<h3 style="filter: drop-shadow(0 0 3px #000);">---Cadastre seus dados---</h3>
+		<input type="text" id="nome"  placeholder="Seu nome completo" />
+		<input type="text" id="email"  placeholder="Seu email..." />
+		<input type="password"  id="senha"  placeholder="Sua senha..." />
+		<input type="tel"  id="telefone"  placeholder="Seu telefone..." />
 		
 		<a href="../SITE/resultado.html">
-			<input type="submit" value="ENVIAR" href="../SITE/resultado.html"/>
+			<input type="submit" value="ENVIAR" onclick="enviar()" href="../SITE/resultado.html"/>
 		</a>
 		<br><br>
-		<input type="submit" value="LIMPAR"/>	
+		<input type="submit" value="LIMPAR" />	
 	</form>
 	
 </body>
